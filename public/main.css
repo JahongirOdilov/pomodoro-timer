@@ -78,3 +78,14 @@ body {
 .btn:active {
 	transform: scale(0.77);
 }
+
+@media (max-width: 576px) {
+	.container {
+		width: 380px;
+		height: 500px;
+		padding: 20px;
+	}
+	.timer {
+		font-size: 70px;
+	}
+}
